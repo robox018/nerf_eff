@@ -1,0 +1,25 @@
+﻿  bgfx.cpp
+  debug_renderdoc.cpp
+  dxgi.cpp
+  glcontext_egl.cpp
+  glcontext_glx.cpp
+  glcontext_html5.cpp
+  glcontext_wgl.cpp
+  nvapi.cpp
+  renderer_agc.cpp
+  renderer_d3d11.cpp
+  renderer_d3d12.cpp
+  renderer_d3d9.cpp
+  renderer_gl.cpp
+  renderer_gnm.cpp
+  renderer_noop.cpp
+  renderer_nvn.cpp
+  renderer_vk.cpp
+  renderer_webgpu.cpp
+  shader.cpp
+  shader_dx9bc.cpp
+  shader_dxbc.cpp
+  shader_spirv.cpp
+  topology.cpp
+  vertexlayout.cpp
+  bgfx.vcxproj -> D:\projectall\mbgfx\bgfx\.build1\win64_vs2017\bin\bgfxDebug.lib

@@ -1,0 +1,23 @@
+﻿  allocator.cpp
+  bounds.cpp
+  bx.cpp
+  commandline.cpp
+  crtnone.cpp
+  debug.cpp
+  dtoa.cpp
+  easing.cpp
+  file.cpp
+  filepath.cpp
+  hash.cpp
+  math.cpp
+  mutex.cpp
+  os.cpp
+  process.cpp
+  semaphore.cpp
+  settings.cpp
+  sort.cpp
+  string.cpp
+  thread.cpp
+  timer.cpp
+  url.cpp
+  bx.vcxproj -> D:\projectall\mbgfx\bgfx\.build1\win64_vs2017\bin\bxRelease.lib

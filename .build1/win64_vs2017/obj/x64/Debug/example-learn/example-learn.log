@@ -1,0 +1,5 @@
+﻿  learn.cpp
+D:\projectall\mbgfx\bgfx\examples\learn\learn.cpp(25,10): warning C4189: “init_loaded”: 局部变量已初始化但不引用
+D:\projectall\mbgfx\bgfx\examples\learn\learn.cpp(25,10): warning C4189: 				bool init_loaded = true;
+D:\projectall\mbgfx\bgfx\examples\learn\learn.cpp(25,10): warning C4189: 				     ^
+  example-learn.vcxproj -> D:\projectall\mbgfx\bgfx\.build1\win64_vs2017\bin\example-learnDebug.exe

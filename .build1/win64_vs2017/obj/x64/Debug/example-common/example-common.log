@@ -1,0 +1,56 @@
+﻿  allocator.cpp
+  clusterizer.cpp
+  indexcodec.cpp
+  indexgenerator.cpp
+  overdrawanalyzer.cpp
+  overdrawoptimizer.cpp
+  simplifier.cpp
+  spatialorder.cpp
+  stripifier.cpp
+  vcacheanalyzer.cpp
+  vcacheoptimizer.cpp
+  vertexcodec.cpp
+  vertexfilter.cpp
+  vfetchanalyzer.cpp
+  vfetchoptimizer.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  bgfx_utils.cpp
+  camera.cpp
+  cube_atlas.cpp
+  debugdraw.cpp
+  cmd.cpp
+  dialog.cpp
+  entry.cpp
+  entry_android.cpp
+  entry_glfw.cpp
+  entry_html5.cpp
+  entry_noop.cpp
+  entry_sdl.cpp
+  entry_windows.cpp
+  entry_x11.cpp
+  input.cpp
+  font_manager.cpp
+  text_buffer_manager.cpp
+  text_metrics.cpp
+  utf8.cpp
+  nanovg.cpp
+  nanovg_bgfx.cpp
+  particle_system.cpp
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1309,59): warning C4389: “==”: 有符号/无符号不匹配
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1309,59): warning C4389:          const bool usingAxis = (gContext.mbUsing && type == MT_SCALE_X + i);
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1309,59): warning C4389:                                                           ^ (编译源文件 ..\..\..\3rdparty\dear-imgui\imgui.cpp)
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1396,59): warning C4389: “==”: 有符号/无符号不匹配
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1396,59): warning C4389:          const bool usingAxis = (gContext.mbUsing && type == MT_SCALE_X + i);
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1396,59): warning C4389:                                                           ^ (编译源文件 ..\..\..\3rdparty\dear-imgui\imgui.cpp)
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1478,61): warning C4389: “==”: 有符号/无符号不匹配
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1478,61): warning C4389:          if (!gContext.mbUsing || (gContext.mbUsing && type == MT_MOVE_X + i))
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1478,61): warning C4389:                                                             ^ (编译源文件 ..\..\..\3rdparty\dear-imgui\imgui.cpp)
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1507,61): warning C4389: “==”: 有符号/无符号不匹配
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1507,61): warning C4389:          if (!gContext.mbUsing || (gContext.mbUsing && type == MT_MOVE_YZ + i))
+D:\projectall\mbgfx\bgfx\3rdparty\dear-imgui\widgets\gizmo.inl(1507,61): warning C4389:                                                             ^ (编译源文件 ..\..\..\3rdparty\dear-imgui\imgui.cpp)
+  imgui.cpp
+  example-common.vcxproj -> D:\projectall\mbgfx\bgfx\.build1\win64_vs2017\bin\example-commonDebug.lib

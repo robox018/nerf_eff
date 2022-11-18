@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="examples">
+      <UniqueIdentifier>{84D830B1-70A5-8BBC-99BE-796485EAC04A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\learn">
+      <UniqueIdentifier>{D229F087-BEF7-E38D-A78B-54B493F8BFF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples\runtime">
+      <UniqueIdentifier>{642DBE38-5026-DD8A-7958-C20F65B0BC96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\examples\runtime\iOS-Info.plist">
+      <Filter>examples\runtime</Filter>
+    </None>
+    <None Include="..\..\..\examples\runtime\tvOS-Info.plist">
+      <Filter>examples\runtime</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\examples\learn\learn.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\examples\learn\n3tree.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\examples\learn\shader_renderer.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\examples\learn\cameraa.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\cnpy.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\3rdparty\tga_image.cpp">
+      <Filter>examples\learn</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="example-learn.rc" />
+  </ItemGroup>
+</Project>

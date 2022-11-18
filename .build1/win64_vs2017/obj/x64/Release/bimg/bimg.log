@@ -1,0 +1,27 @@
+﻿  image.cpp
+  image_gnf.cpp
+  astc_file.cc
+  codec.cc
+  endpoint_codec.cc
+  footprint.cc
+  integer_sequence_codec.cc
+  intermediate_astc_block.cc
+  logical_astc_block.cc
+  partition.cc
+  physical_astc_block.cc
+  quantization.cc
+  weight_infill.cc
+  miniz.c
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4473,84): warning C4127: 条件表达式是常量
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4473,84): warning C4127:         if (((sizeof(size_t) == sizeof(mz_uint32))) && (read_buf_size > 0x7FFFFFFF))
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4473,84): warning C4127:                                                                                    ^
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4567,77): warning C4127: 条件表达式是常量
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4567,77): warning C4127:     if (((sizeof(size_t) == sizeof(mz_uint32))) && (alloc_size > 0x7FFFFFFF))
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4567,77): warning C4127:                                                                             ^
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4667,99): warning C4127: 条件表达式是常量
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4667,99): warning C4127:             if (((sizeof(size_t) == sizeof(mz_uint32))) && (file_stat.m_comp_size > MZ_UINT32_MAX))
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(4667,99): warning C4127:                                                                                                   ^
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(5579,73): warning C4127: 条件表达式是常量
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(5579,73): warning C4127:     if ((sizeof(size_t) == sizeof(mz_uint32)) && (new_size > 0x7FFFFFFF))
+D:\projectall\mbgfx\bimg\3rdparty\tinyexr\deps\miniz\miniz.c(5579,73): warning C4127:                                                                         ^
+  bimg.vcxproj -> D:\projectall\mbgfx\bgfx\.build1\win64_vs2017\bin\bimgRelease.lib
